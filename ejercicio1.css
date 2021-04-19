@@ -1,0 +1,38 @@
+#container{
+    height:800px;
+    width: 600px;
+    background-color: gray;
+    padding: 5px;
+ 
+}
+
+#header{
+    position: fixed;
+    height: 100px;
+    width: 600px;
+
+    
+    background-color: green;
+}
+
+#nav{
+    position:fixed;
+    top: 120px;
+    height:200px;
+    width:100px;
+    background-color: blue;
+}
+
+#subcontainer{
+    position:fixed;
+    top: 120px;
+    height: 300px;
+    width: 400px;
+    left:140px;
+    background-color: red;
+
+}
+#ybox1{
+    background-color: yellow;
+    position: relative;
+}

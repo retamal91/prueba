@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    color:gold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: overline;
+    text-transform: uppercase;
+    size:25px;
+}
+
+h2{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-transform: lowercase;
+    size: 20px;
+    background-color: aqua;
+}
+
+h3{
+    text-align: right;
+    text-decoration: line-through;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow:2px 2px red;
+    background-color: aquamarine;
+}
+
+#contenedor1{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: ejemplo1;
+    animation-duration: 5s;
+}
+
+@keyframes ejemplo1 {
+    0% {background-color: red;left:0px; top:0px;}
+    50% {background-color: blue;left:400px;top:400px}
+    100%{background-color: yellow;left:0;top:0};
+}
+
+#contenedor2{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: ejemplo2;
+    animation-duration: 5s;
+}
+
+@keyframes ejemplo2 {
+    0% {background-color: red;left:0px; top:0px;}
+    100%{background-color: yellow;left:400px;top:0px};
+}
+

@@ -1,0 +1,19 @@
+/* Estilo de cajas */
+
+#box1, #box2, #box3{
+    height: 100px;
+    width:  100px;
+    background-color: skyblue;
+}
+
+#box1{
+    margin: 20px;
+}
+
+#box2{
+    margin: 30px;
+}
+
+#box3{
+    margin: 40px;
+}
